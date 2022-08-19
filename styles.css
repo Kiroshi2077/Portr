@@ -1,0 +1,189 @@
+nav {
+  padding: 10px 5px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: "Abel", sans-serif;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+  border-width: 0;
+  transition: color 200ms, border-width 200ms;
+}
+.navBtns a:hover {
+  color: #27a7d8;
+  border-bottom: #27a7d8 solid;
+  border-width: 5px;
+}
+button {
+  border-radius: 50px;
+  width: 70px;
+  height: 35px;
+  background: #ff9a00;
+  transition: background 200ms, height 200ms, width 200ms;
+}
+button:hover {
+  background: #fea95e;
+  height: 40px;
+  cursor: pointer;
+}
+.wrapper {
+  height: 100%;
+}
+.fixed {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+.one {
+  background-image: url("images/labWalls.jpg");
+}
+.two {
+  background-image: url("images/wall2.jpg");
+}
+.mainImg {
+  width: 50%;
+}
+.navlink {
+  display: inline-block;
+  margin: auto;
+  padding: 0px 15px;
+}
+.navBtns {
+  display: flex;
+}
+.logo {
+  width: 110px;
+  height: 30px;
+  cursor: pointer;
+}
+.imgLink {
+  margin-right: auto;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  padding-top: 100px;
+}
+.title {
+  transition: color 200ms;
+  display: inline-block;
+  margin: auto;
+  font-size: 10rem;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 100;
+}
+.title:hover {
+  color: #27a7d8;
+}
+.introBtns {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+.introBtns h3,
+.intro p {
+  font-size: 1.5rem;
+}
+.sectionTitle {
+  margin: auto;
+  font-size: 3rem;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 600;
+  background-color: #27a7d8;
+  margin-left: -80px;
+}
+.infoText {
+  width: 20%;
+  padding-left: 20px;
+}
+.infoParagraph {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+.infoBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 22% 0;
+}
+.infoImg {
+  width: 20%;
+}
+
+@media (max-width: 1300px) {
+  .infoImg {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .infoText {
+    width: 50%;
+  }
+  .infoImg {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .navlink {
+    display: block;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .intro {
+    flex-wrap: wrap;
+  }
+  .introBtns h3,
+  .introBtns p {
+    font-size: 1.3rem;
+  }
+  .mainImg {
+    width: 60%;
+  }
+  .navBtns {
+    display: block;
+    font-size: 0.8rem;
+  }
+  .infoImg {
+    width: 70%;
+  }
+  .infoBlock {
+    flex-wrap: wrap;
+  }
+  .infoText {
+    width: 100%;
+    text-align: center;
+  }
+  .infoParagraph {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+  .sectionTitle {
+    font-size: 3rem;
+    margin: 0;
+    background-color: rgb(0, 0, 0, 0);
+  }
+  .one {
+    padding-bottom: 52%;
+  }
+  .two {
+    padding-bottom: 45%;
+  }
+}
