@@ -29,6 +29,7 @@
       type="image"
       href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aperture_Science_Logo.svg/1200px-Aperture_Science_Logo.svg.png"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="wrapper">
@@ -41,14 +42,14 @@
               alt="portr logo"
             />
           </a>
+          <div class="hamburgerMenu"><i class="fa-solid fa-bars fa-2x"></i></div>
           <div class="navBtns">
             <a href="#whatIsPORTR" class="navlink">WHAT IS PORTR</a>
-            <a href="#" class="navlink">GUIDE</a>
-            <a href="#" class="navlink">FAQ</a>
-            <a href="#" class="navlink">CONTACT</a>
+            <a href="#reviewsNav" class="navlink">REVIEWS</a>
+            <a href="#buy" class="navlink">BUY</a>
+            <a href="#contact" class="navlink">CONTACT</a>
           </div>
         </nav>
-        <script src="script.js"></script>
         <div class="intro">
           <img
             class="mainImg"
@@ -57,18 +58,21 @@
           />
           <div class="introBtns">
             <h1 class="title">PORTR</h1>
-            <h3>Why walk when you can Port!</h3>
-            <p>Never be late again</p>
-            <button>BUY $9,999</button>
+            <h3>Why walk when you can port!</h3>
+            <a href="checkout.html"><button class="buyBTN">BUY NOW</button></a> 
           </div>
         </div>
       </div>
-      <main>
+      <section aria-label="What is Portr">
         <div class="fixed two" id="whatIsPORTR">
           <div class="infoBlock">
-            <img class="infoImg" src="images/gun.gif" alt="" />
-            <div class="infoText">
-              <h1 class="sectionTitle">WHAT IS PORTR?</h1>
+            <img
+              class="infoImg"
+              src="images/gun.gif"
+              alt="Example of Portr in use"
+            />
+            <div class="infoTextLeft alignLeft">
+              <h1 class="sectionTitle left">WHAT IS PORTR?</h1>
               <p class="infoParagraph">
                 A PORTR (Portable self-Operated Ripper of space-Time Rifle) is a
                 handheld portal gun designed to get you from one point in space
@@ -76,9 +80,207 @@
               </p>
             </div>
           </div>
+          <div class="infoBlock">
+            <div class="infoTextRight alignRight">
+              <h1 class="sectionTitle right">WHY PORTR?</h1>
+              <p class="infoParagraph">
+              </p>
+              <div class="dropdownParent">
+                <p class="infoParagraph">With PORTR you will never be stuck in traffic, be late for work,
+                  or have to get up for the remote ever again. With PORTR as long
+                  as you have line of site of a flat surface you will be able to
+                  instantly teleport there... <span class="arrowColor">⮟</span></p>
+                  <p class="infoParagraph dropdownText dropdown1 dropdownHidden">Portals created using your PORTR never
+                    disappear unless you shoot another portal of the same color or
+                    if you yourself close them, that means you can say goodbye to
+                    having to pay extra for luggage on a flight since now you can
+                    just put a portal in your lovely home and once you reach your
+                    destination all you have to do is put another portal down and
+                    voila, you now have a doorway right into your house from miles
+                    away. <br />
+                    <br />
+                    You might be thinking "but cant anyone just walk into my portal
+                    and get into my house". Dont you worry! You can lock your
+                    portals at the press of a button. this works by disconnecting
+                    the link between portals making it impossible to travel through
+                    them.
+                    <span class="death"
+                      >Closing a portal while you or someone is in transit between
+                      portals may result in injury or death. Aperture Labratories is
+                      not liable for any injurys or death that may happen while
+                      using PORTR</span></p>
+              </div>
+            </div>
+            <img
+              class="infoImg"
+              src="images/whyPortr.gif"
+              alt="How To Portr Video"
+            />
+          </div>
+          <div class="infoBlock">
+            <img
+              class="infoImg"
+              src="images/howToPortr.gif"
+              alt="How To Portr Video"
+            />
+            <div class="infoTextLeft alignLeft">
+              <h1 class="sectionTitle left">HOW TO USE PORTR</h1>
+              <div class="dropdownParent">
+                <p class="infoParagraph" id="reviewsNav">To use the PORTR simply insert your hand into the back end of
+                  the gun and pull the top trigger. This will release a blue beam
+                  of energy that will flatten into an oval shape when it contacts
+                  a flat surface... <span class="arrowColor">⮟</span></p>
+                  <p class="infoParagraph dropdownText dropdown2 dropdownHidden">Then aim your PORTR at another flat surface and press the bottom
+                    trigger, an orange beam of energy will shoot out which when it
+                    hits its target will link itself to the blue enery beam creating
+                    a rip in space-time which in turn a portal. Congratulations, you
+                    just created a portal using your new Aperture Science PORTR.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <h1 class="sectionTitle">HOW TO USE PORTR</h1>
-      </main>
+      </section>
+      <section aria-label="Portr Reviews" class="reviews">
+        <div class="carousel">
+          <button class="carousel__button carousel__button--left is-hidden">
+            <
+          </button>
+          <div class="carousel__track-container">
+            <ul class="carousel__track">
+              <li class="carousel__slide current-slide">
+                <img
+                  class="carousel__img"
+                  src="images/glados.png"
+                  alt="glados profile"
+                />
+                <p class="reviewText">
+                  ⭐⭐⭐⭐⭐
+                  <br />
+                  <br />
+                  The PORTR is amazing! I love watching
+                  <s>the test subjects struggle</s> happy customers use the
+                  portals!
+                </p>
+              </li>
+              <li class="carousel__slide">
+                <img
+                  class="carousel__img"
+                  src="images/chellProfile.png"
+                  alt="glados profile"
+                />
+                <p class="reviewText">
+                  ⭐⭐⭐⭐
+                  <br />
+                  <br />
+                  The PORTR is very useful. Saved my life many times!
+                  <span class="secret">HELP ME</span>
+                </p>
+              </li>
+              <li class="carousel__slide">
+                <img
+                  class="carousel__img"
+                  src="images/space.png"
+                  alt="glados profile"
+                />
+                <p class="reviewText">
+                  ⭐⭐⭐⭐⭐
+                  <br />
+                  <br />
+                  PORTR is the best purchase i've ever made! just dont point it
+                  at the moon...
+                </p>
+              </li>
+            </ul>
+          </div>
+          <button class="carousel__button carousel__button--right">></button>
+
+          <div class="carousel__nav">
+            <button
+              class="carousel__indicator current-slide-indicator"
+            ></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="fixed three" id="buy">
+          <div class="buyBtnMenu">
+            <h3>SOLO</h3>
+            <img src="images/portalgun.png" class="buyImg" />
+            <img src="images/companionCube.png" class="companionCude hidden" />
+            <h3>$9,999</h3>
+            <p class="buyText">
+              Get one PORTR for the standard price. For $9,999 you can go
+              anywhere you like in an instant!
+            </p>
+            <a href="checkout.html"><button class="buyBtn">BUY NOW</button></a>
+          </div>
+          <div class="buyBtnMenu">
+            <h3>DUO</h3>
+            <img src="images/portalgun.png" class="buyImg" />
+            <img src="images/portalgun.png" class="buyImg" />
+            <img src="images/companionCube.png" class="companionCude hidden" />
+            <h3>$17,999</h3>
+            <p class="buyText">
+              Get two PORTRs and get 12% off each! For $17,999 you and a friend
+              can visit any place you would like!
+            </p>
+            <a href="checkout.html"><button class="buyBtn">BUY NOW</button></a>
+          </div>
+          <div class="buyBtnMenu">
+            <h3>FAMILY PACK</h3>
+            <img src="images/portalgun.png" class="buyImg" />
+            <img src="images/portalgun.png" class="buyImg" />
+            <img src="images/portalgun.png" class="buyImg" />
+            <img src="images/companionCube.png" class="companionCude" />
+            <h3>$22,999</h3>
+            <p class="buyText">
+              Get three PORTRs, one for the whole family at 15% off each and get
+              a free companion cude, you cant go wrong! For $22,999 take your
+              whole family on the adventure of a life time!
+            </p>
+            <a href="checkout.html"><button class="buyBtn">BUY NOW</button></a>
+          </div>
+        </div>
+      </section>
     </div>
+    <footer>
+      <div class="footer footerMain" id="contact">
+        <h1 class="footerTitle">PORTR</h1>
+        <p>Why walk when you can port!</p>
+        <br />
+        <a class="fontLink" href="https://twitter.com/valvesoftware"><i class="fa-brands fa-twitter fa-xl"></a></i>
+        <a class="fontLink" href="https://www.youtube.com/watch?v=tax4e4hBBZc"><i class="fa-brands fa-youtube fa-xl"></a></i>
+        <a class="fontLink" href="#"><i class="fa-solid fa-envelope fa-xl"></a></i>
+      </div>
+      <div class="footer">
+        <h1 class="footerMenuTitle">More Aperture Science Products</h1>
+        <ul class="footerList">
+          <a href="https://half-life.fandom.com/wiki/GLaDOS"><li class="footerLink">GLaDOS</li></a>
+          <a href="https://half-life.fandom.com/wiki/ATLAS_and_P-body"><li class="footerLink">ATLAS</li></a>
+          <a href="https://half-life.fandom.com/wiki/ATLAS_and_P-body"><li class="footerLink">P-body</li></a>
+          <a href="https://half-life.fandom.com/wiki/Long_Fall_Boot"><li class="footerLink">Long Fall Boot</li></a>
+        </ul>
+      </div>
+      <div class="footer">
+        <h1 class="footerMenuTitle">About Aperture Science</h1>
+        <ul class="footerList">
+        <a href="#"><li class="footerLink">Contact Us</li></a>
+        <a href="#"><li class="footerLink">Terms & Conditions</li></a>
+        <a href="#"><li class="footerLink">Cookie Statement</li></a>
+        <a href="#"><li class="footerLink">Privacy Statement</li></a>
+      </ul>
+    </div>
+    </footer>
+    <div class="copyright">
+      <p>PORTR is a Aperture Labratories Product.</p>
+      <p>Copyright ⓒ 1943 - 2022, All rights reserved.</p>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/7b1ce4f7b1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
   </body>
 </html>
